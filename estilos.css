@@ -1,0 +1,31 @@
+       * {}
+
+       p {
+           font-family: Arial, sans-serif;
+           font-size: 30px;
+
+
+       }
+
+       header {
+           background-color: #a1dfa9;
+           color: #ffffff;
+           padding: 20px;
+           text-align: center;
+       }
+
+       h1 {
+           font-size: 36px;
+       }
+
+       main {
+           padding: 20px;
+
+       }
+
+       footer {
+           background-color: #a1dfa9;
+           color: #faf0f0;
+           text-align: center;
+           padding: 10px;
+       }
