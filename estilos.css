@@ -1,6 +1,6 @@
        p {
-           font-family:'Times New Roman', Times, serif;
-           font-size: 2px;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 25px;
 
 
        }
@@ -16,31 +16,24 @@
            padding: 100px;
 
            .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #58709c;
-            color: #1c3c25;
-            text-decoration: none;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 20px;
-        }
-        
-        .button:hover {
-            background-color: #60bd9e;
-        }
-        
+               display: inline-block;
+               padding: 10px 20px;
+               background-color: #58709c;
+               color: #1c3c25;
+               text-decoration: none;
+               border: none;
+               border-radius: 5px;
+               cursor: pointer;
+               font-size: 20px;
+           }
 
-
+           .button:hover {
+               background-color: #60bd9e;
+           }
+           
+           
            main {
                padding: 0px;
+           }
 
-
-
-               footer {
-                   background-color: #a1dfa9;
-                   color: #191a1a;
-                   text-align: center;
-                   padding: 10px;
-                }
+            
