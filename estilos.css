@@ -1,6 +1,7 @@
        p {
            font-family: 'Times New Roman', Times, serif;
            font-size: 25px;
+           margin: 0;
 
 
        }
@@ -18,7 +19,7 @@
            .button {
                display: inline-block;
                padding: 10px 20px;
-               background-color: #58709c;
+               background-color: #eba43a;
                color: #1c3c25;
                text-decoration: none;
                border: none;
@@ -31,6 +32,10 @@
                background-color: #60bd9e;
            }
            
+           ul {
+            display: flex;
+            
+           }
            
            main {
                padding: 0px;
