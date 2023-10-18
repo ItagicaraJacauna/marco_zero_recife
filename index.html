@@ -6,23 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="estilos.css" rel="stylesheet">
     <title>RECIFE</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
+        header {
+            background-color: #0074b8;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        figure {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #0074b8;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1>Bem Vindo ao Recife</h1>
-
         <nav>
             <ul>
                 <li><a href="onde ir.html" class="button">Pontos Turísticos</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <p>O <strong>Marco Zero</strong> é um dos pontos turísticos mais famosos da cidade do Recife, localizado no
-            Bairro do Recife Antigo. Ele marca o início oficial da contagem das distâncias das estradas de Pernambuco e
-            é um local de grande importância histórica e cultural.</p>
+
+    <main class="container">
+        <div class="paragrafo-1">
+            <p>O <strong>Marco Zero</strong> é um dos pontos turísticos mais famosos da cidade do Recife, localizado no
+                Bairro do Recife Antigo. Ele marca o início oficial da contagem das distâncias das estradas de Pernambuco e
+                é um local de grande importância histórica e cultural.</p>
+        </div>
         <p>Este monumento é uma grande bússola de pedra com uma rosa dos ventos esculpida no chão, rodeada por um painel
             que conta a história da cidade. Além disso, há uma coluna com uma escultura de bronze de Nossa Senhora do
             Monte Carmo, a padroeira da cidade.</p>
@@ -41,17 +75,15 @@
             <img src="img/arquivopessoal (2).jpg" alt="Foto do Marco Zero em Recife" width="400">
             <figcaption>Fonte: Arquivo pessoal</figcaption>
         </figure>
-
         <p>Visitar o Marco Zero é uma experiência única para quem deseja conhecer mais sobre a rica história e cultura
             de Recife. Localizado às margens do Rio Capibaribe, o local também oferece uma vista deslumbrante do rio e
             da cidade.</p>
     </main>
+</body>
 
     <footer>
-        <center>
-            <p>&copy; 2023 Itagiçara_Projeto Proz_HTML/Marco Zero de Recife</p>;
-        </center>
+        <p>&copy; 2023 Itagiçara_Projeto Proz_HTML/Marco Zero de Recife</p>
     </footer>
-</body>
+
 
 </html>
