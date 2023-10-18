@@ -24,28 +24,26 @@
            .button:hover {
                background-color: #60bd9e;
            }
+
+           body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
            
            ul {
             display: flex;
             
            }
-
-           .imagens {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-      
-        
-           
-        .main {
-               padding: 0px;
+   
+           figure {
+               margin-top: 20px;
            }
+   
+           .footer {
+               background-color: #0074b8;
+               color: white;
+               text-align: center;
+               padding: 10px;
+           }
+       
 
-        .footer{
-            background-color: #0074b8;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-        
